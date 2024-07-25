@@ -1,1 +1,10 @@
-<?xml version="1.0" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B33E34" fill-opacity="1" d="M0,32L48,26.7C96,21,192,11,288,16C384,21,480,43,576,64C672,85,768,107,864,122.7C960,139,1056,149,1152,133.3C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.4, SVG Export Plug-In . SVG Version: 9.03 Build 54784)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1440 130" style="enable-background:new 0 0 1440 130;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#88443E;}
+</style>
+<path class="st0" d="M0,28.3l48-4.8c48-5.1,144-13.9,240-9.5S480,38,576,56.6s192,38.1,288,52c96,14.5,192,23.3,288,9.4
+	c96-14.5,192-51.7,240-70.8l48-18.8V0h-48c-48,0-144,0-240,0S960,0,864,0S672,0,576,0S384,0,288,0S96,0,48,0H0V28.3z"/>
+</svg>

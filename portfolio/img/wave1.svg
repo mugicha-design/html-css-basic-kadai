@@ -1,1 +1,10 @@
-<?xml version="1.0" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B33E34" fill-opacity="1" d="M0,32L48,26.7C96,21,192,11,288,16C384,21,480,43,576,64C672,85,768,107,864,122.7C960,139,1056,149,1152,133.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.4, SVG Export Plug-In . SVG Version: 9.03 Build 54784)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1440 150" style="enable-background:new 0 0 1440 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#88443E;}
+</style>
+<path class="st0" d="M0,8.5l48-2.6c48-2.8,144-7.7,240-5.3s192,13.3,288,23.6s192,21.1,288,28.9c96,8,192,12.9,288,5.2
+	c96-8,192-28.6,240-39.3l48-10.4V150h-48c-48,0-144,0-240,0s-192,0-288,0s-192,0-288,0s-192,0-288,0s-192,0-240,0H0V8.5z"/>
+</svg>
