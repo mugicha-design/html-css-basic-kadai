@@ -3,26 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>mugicha design | ITスクールのバナー</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <title>mugicha design | むびる様資料制作</title>
+  <meta name="description" content="mugicha design portfolioサイトです。作りたいイメージをデザイン・コーディング承ります。">
+  
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  
+  <!-- css -->
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="./img/favicon.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="./img/favicon.png" sizes="192x192">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <div class="wrapper">
 
     <!-- header -->
-    <header class="header header2">
+    <header class="header">
       <div class="container">
         <h1 class="header-logo">
-          <a href="index.html"><img src="img/logo.png" alt="logo">mugicha design</a>
+          <a href="index.html">
+            <img src="img/logo_transparent@2x.png" alt="logo">
+            <p>mugicha<br>design</p>
+          </a>
         </h1>
         <nav class="gnav">
           <ul class="gnav-list">
@@ -36,31 +45,39 @@
     </header>
     <!-- /header -->
 
+    <!-- 追記 -->
+    <div class="drawer-toggle">
+      <div class="drawer-toggle-icons">
+          <div class="drawer-toggle-icon1"></div>
+          <div class="drawer-toggle-icon2"></div>
+          <div class="drawer-toggle-icon3"></div>
+      </div>
+    </div>
+    <!-- /追記 -->
+
     <main class="content">
 
       <article class="article">
         <div class="article-container">
           <div class="article-title-box">
-            <h2 class="article-title">ITスクールのバナー</h2>
+            <h2 class="article-title">むびる様 / 資料制作</h2>
           </div>
           <div class="article-body">
-            <p style="text-align: center;">
-              <img src="img/works-detail/samurai_banner.jpg" alt="デザインスクールバナー">
+            <p>
+              <img class="img-mb article-img-shadow" src="img/works-detail/mubiru_1.png" alt="mubiru_data1">
+              <img class="img-mb article-img-shadow" src="img/works-detail/mubiru_2.png" alt="mubiru_data2">
+              <img class="article-img-shadow" src="img/works-detail/mubiru_3.png" alt="mubiru_data3">
             </p>
             <p>
-              ITスクールを手掛ける企業様のクリエイティブバナーになります。
+              動画制作サービスを手掛ける企業様の3ページ資料になります。
             </p>
-            <h3>URL</h3>
-            <p><a href="" target="_blank" rel="noopener">ここにURLを入れてください。</a></p>
             <h3>担当</h3>
             <p>デザイン</p>
-            <h3>サイトの目的</h3>
-            <p>お客様の自社メディアサイトでの使用。また広告での使用。</p>
             <h3>使用技術</h3>
-            <p>Adobe Photoshop</p>
+            <p>Adobe Photoshop/Adobe Illustrator</p>
             <h3>デザインについて</h3>
             <p>
-              メインターゲットが女性であることを考慮した配色をさせていただきました。
+              むびる様の三角形のロゴとカラフルな色合いを活用したポップなデザインとさせていただきました。
             </p>
           </div>
           <div class="home-link">
@@ -69,19 +86,26 @@
         </div>
       </article>
 
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
-      </div>
+      <a class="page-top" id="page-top"></a>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-      <div class="copyright">&copy;mugicha design</div>
+      <nav class="gnav sp-none">
+        <ul class="gnav-list">
+          <li class="gnav-item"><a href="index.html#works">WORKS</a></li>
+          <li class="gnav-item"><a href="index.html#skill">SKILL</a></li>
+          <li class="gnav-item"><a href="index.html#about">ABOUT</a></li>
+          <li class="gnav-item"><a href="index.html#contact">CONTACT</a></li>
+          <li class="gnav-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2025 mugicha design</p>
     </footer>
     <!-- /footer -->
 
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>

@@ -4,25 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>mugicha design | コーポレートサイト</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <meta name="description" content="mugicha design portfolioサイトです。作りたいイメージをデザイン・コーディング承ります。">
+  
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  
+  <!-- css -->
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="./img/favicon.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="./img/favicon.png" sizes="192x192">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <div class="wrapper">
 
     <!-- header -->
-    <header class="header header2">
+    <header class="header">
       <div class="container">
         <h1 class="header-logo">
-          <a href="index.html"><img src="img/logo.png" alt="logo">mugicha design</a>
+          <a href="index.html">
+            <img src="img/logo_transparent@2x.png" alt="logo">
+            <p>mugicha<br>design</p>
+          </a>
         </h1>
         <nav class="gnav">
           <ul class="gnav-list">
@@ -36,6 +45,16 @@
     </header>
     <!-- /header -->
 
+    <!-- 追記 -->
+    <div class="drawer-toggle">
+      <div class="drawer-toggle-icons">
+          <div class="drawer-toggle-icon1"></div>
+          <div class="drawer-toggle-icon2"></div>
+          <div class="drawer-toggle-icon3"></div>
+      </div>
+    </div>
+    <!-- /追記 -->
+
     <main class="content">
 
       <article class="article">
@@ -44,14 +63,20 @@
             <h2 class="article-title">コーポレートサイト</h2>
           </div>
           <div class="article-body">
-            <p>
-              <img src="img/works-detail/works-1.png" alt="">
+            <p class="article-shadow">
+              <!-- <img src="img/works-detail/sosialtech_top.png" alt=""> -->
+              <img src="img/works-detail/sosialtech_top_01.jpg" alt="sosialtech1">
+              <img src="img/works-detail/sosialtech_top_02.jpg" alt="sosialtech2">
+              <img src="img/works-detail/sosialtech_top_03.jpg" alt="sosialtech3">
+              <img src="img/works-detail/sosialtech_top_04.jpg" alt="sosialtech4">
+              <img src="img/works-detail/sosialtech_top_05.jpg" alt="sosialtech5">
+              <img src="img/works-detail/sosialtech_top_06.jpg" alt="sosialtech6">
             </p>
             <p>
               5ページから構成される企業様のHPです。
             </p>
             <h3>URL</h3>
-            <p><a href="" target="_blank" rel="noopener">ここにURLを入れてください</a></p>
+            <p><a href="https://mugicha-design.com/socialtech/" target="_blank" rel="noopener">https://mugicha-design.com/socialtech/</a></p>
             <h3>担当</h3>
             <p>コーディング</p>
             <h3>サイトの目的</h3>
@@ -62,12 +87,9 @@
             <p>
               企業様のブランドカラーを基調としたサイトデザインをさせていただきました。使用カラーも4色（青・白・黒・グレー）のみとし、サイト全体の統一感を出させていただきました。
             </p>
-            <p>
-              グローバルナビゲーション（上部メニュー）を押したときの自動スクロール処理。また、お問い合わせフォームは企業様のメールへ送信される処理を実装しております。
-            </p>
             <h3>コーディングについて</h3>
             <p>
-              PCのWebサイト制作はもちろんのこと、スマートフォンでも見やすくするためレスポンシブ対応を施しております。
+              PCのWebサイト制作はもちろんのこと、スマートフォンでも見やすくするためレスポンシブ対応を施しております。グローバルナビゲーション（上部メニュー）を押したときの自動スクロール処理。また、お問い合わせフォームは企業様のメールへ送信される処理を実装しております。
             </p>
           </div>
           <div class="home-link btn">
@@ -76,19 +98,26 @@
         </div>
       </article>
 
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
-      </div>
+      <a class="page-top" id="page-top"></a>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-      <div class="copyright">&copy;mugicha design</div>
+      <nav class="gnav sp-none">
+        <ul class="gnav-list">
+          <li class="gnav-item"><a href="index.html#works">WORKS</a></li>
+          <li class="gnav-item"><a href="index.html#skill">SKILL</a></li>
+          <li class="gnav-item"><a href="index.html#about">ABOUT</a></li>
+          <li class="gnav-item"><a href="index.html#contact">CONTACT</a></li>
+          <li class="gnav-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2025 mugicha design</p>
     </footer>
     <!-- /footer -->
 
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
