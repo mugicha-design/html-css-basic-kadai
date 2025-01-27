@@ -5,15 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>mugicha design | portfolio</title>
   <meta name="description" content="mugicha design portfolioサイトです。作りたいイメージをデザイン・コーディング承ります。">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  
+  <!-- css -->
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="./img/favicon.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="./img/favicon.png" sizes="192x192">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -23,7 +28,10 @@
     <header class="header">
       <div class="container">
         <h1 class="header-logo">
-          <a href="#"><img src="img/logo.png" alt="logo">mugicha design</a>
+          <a href="#">
+            <img src="img/logo_transparent@2x.png" alt="logo">
+            <p>mugicha<br>design</p>
+          </a>
         </h1>
         <nav class="gnav">
           <ul class="gnav-list">
@@ -37,6 +45,16 @@
     </header>
     <!-- /header -->
 
+    <!-- 追記 -->
+    <div class="drawer-toggle">
+      <div class="drawer-toggle-icons">
+          <div class="drawer-toggle-icon1"></div>
+          <div class="drawer-toggle-icon2"></div>
+          <div class="drawer-toggle-icon3"></div>
+      </div>
+    </div>
+    <!-- /追記 -->
+
     <main class="content">
 
       <!-- ここから波 -->
@@ -45,7 +63,8 @@
             <!-- mv -->
               <div class="mv">
                 <div class="mv-container">
-                  <img src="img/main.png" alt="">
+                  <img class="pc-only" src="img/main.png" alt="mainvisual">
+                  <img class="sp-only" src="img/main2.png" alt="mainvisual">
                 </div>
               </div>
               <!-- /mv -->     
@@ -57,11 +76,12 @@
           <section class="works section" id="works">
             <div class="container">
               <h2 class="title">WORKS</h2>
+              <p class="ja">お仕事・制作実績</p>
               <div class="works-list">
                 <!--works box1-->
                 <div class="works-box">
                   <a class="works-item" href="works-1.html">
-                    <div class="works-img"><img src="img/works/html1.png" alt="html1" /></div>
+                    <div class="works-img"><img src="img/works/sosialtech.png" alt="sosialtech" /></div>
                     <p class="works-name">コーポレートサイト</p>
                     <p class="works-info">HTML/CSS/JavaScript/jQuery/レスポンシブ対応</p>
                   </a>
@@ -69,15 +89,15 @@
                 <!--works box2-->
                 <div class="works-box">
                   <a class="works-item" href="works-2.html">
-                    <div class="works-img"><img src="img/works/html2.png" alt="html2" /></div>
+                    <div class="works-img"><img src="img/works/profile_mockup.jpg" alt="yamadatarostudio" /></div>
                     <p class="works-name">プロフィールサイト</p>
-                    <p class="works-info">HTML/CSS</p>
+                    <p class="works-info">STUDIO/レスポンシブ対応</p>
                   </a>
                 </div>
                 <!--works box3-->
                 <div class="works-box">
                   <a class="works-item" href="works-3.html">
-                    <div class="works-img"><img src="img/works/wordpress1.png" alt="WordPress" /></div>
+                    <div class="works-img"><img src="img/works/hairtech.png" alt="beautysalon" /></div>
                     <p class="works-name">美容室のHP</p>
                     <p class="works-info">WordPress</p>
                   </a>
@@ -85,25 +105,33 @@
                 <!--works box4-->
                 <div class="works-box">
                   <a class="works-item" href="works-4.html">
-                    <div class="works-img"><img src="img/works/samurai_banner.jpg" alt="Photoshop" /></div>
-                    <p class="works-name">ITスクールのバナー</p>
-                    <p class="works-info">Photoshop</p>
+                    <div class="works-img"><img src="img/works/mubiru_works.jpg" alt="mubiru" /></div>
+                    <p class="works-name">むびる様 / サービス資料制作</p>
+                    <p class="works-info">Photoshop/Illustrator</p>
                   </a>
                 </div>
                 <!--works box5-->
                 <div class="works-box">
                   <a class="works-item" href="works-5.html">
-                    <div class="works-img"><img src="img/works/xd.png" alt="AdobeXD" /></div>
-                    <p class="works-name">ITスクールのLP</p>
-                    <p class="works-info">AdobeXD</p>
+                    <div class="works-img"><img src="img/works/logo_mockup.jpg" alt="mugichadesign_logo" /></div>
+                    <p class="works-name">mugichadesign / ロゴ</p>
+                    <p class="works-info">Illustrator</p>
                   </a>
                 </div>
                 <!--works box6-->
                 <div class="works-box">
                   <a class="works-item" href="works-6.html">
-                    <div class="works-img"><img src="img/works/wordpress2.png" alt="WordPress2" /></div>
+                    <div class="works-img"><img src="img/works/samuraiuniversity.png" alt="WordPress2" /></div>
                     <p class="works-name">大学のHP</p>
                     <p class="works-info">WordPress/PHP</p>
+                  </a>
+                </div>
+                <!--works box7-->
+                <div class="works-box">
+                  <a class="works-item" href="works-7.html">
+                    <div class="works-img"><img src="img/works/mugichadesign_top.png" alt="mugichadesign_HP" /></div>
+                    <p class="works-name">mugichadesign / ポートフォリオサイト</p>
+                    <p class="works-info">HTML/CSS/JavaScript/jQuery/レスポンシブ対応</p>
                   </a>
                 </div>
               </div>
@@ -113,13 +141,11 @@
         </div>
           <!--ここまで波-->
 
-        <!-- wave1 -->
-        <img class="wave1" src="img/wave1.svg" alt="">
-
       <!-- skill -->
       <section class="skill section" id="skill">
         <div class="container">
           <h2 class="title">SKILL</h2>
+          <p class="ja">できること</p>
           <div class="skill-list">
             <!--skill box1-->
             <div class="skill-item">
@@ -177,11 +203,11 @@
             </div>
             <!--skill box7-->
             <div class="skill-item">
-              <p class="skill-img"><img src="img/skills/STUDIO_logo-symbol-primary-color.png" alt="studio"></p>
+              <p class="skill-img"><img src="img/skills/STUDIO_symbol_japan_black.png" alt="studio"></p>
               <div class="skill-body">
                 <h3 class="skill-name">STUDIO</h3>
                 <p class="skill-text">
-                  WebサイトやLPをノーコードで作成することが可能です。</p>
+                  レスポンシブ可能なWebサイトやLPをノーコードで作成することが可能です。</p>
               </div>
             </div>
             <!--skill box8-->
@@ -206,9 +232,10 @@
       <section class="about section" id="about">
         <div class="container">
           <h2 class="title">ABOUT</h2>
+          <p class="ja">私について</p>
           <div class="profile">
             <p class="profile-img">
-              <img src="img/logo.png" alt="about">
+              <img src="img/logo_transparent@2x.png" alt="about">
             </p>
             <div class="profile-body">
               <div class="contact-sns">
@@ -216,24 +243,13 @@
                   <p>清水 結唯</p>
                   <p>Shimizu Yui</p>
                 </div>
-                <!--sns-->
-                <div class="contact-list">
-                  <div class="sns-box">
-                    <a href="https://www.instagram.com/mugichadesign/" target="_blank">
-                      <img class="sns-icon" src="img/Instagram_logo_White.png" alt="Instagram">
-                    </a>
-                  </div>
-                  <div class="sns-box">
-                    <a href="https://x.com/mugichadesign" target="_blank">
-                      <img class="sns-icon" src="img/X_logo-white.png" alt="X">
-                    </a>
-                  </div>
-                </div>
               </div><!--/contact-sns-->
-              <p>はじめまして、mugicha designの清水と申します。<br>北海道を拠点にフリーランスとしてWeb制作をしております。
-                2018年より6年間事務職として務めておりましたが、予てより趣味でしていたWebサイト制作を2024年より本業にしました。
-                Web制作におけるデザイン、コーディング、スマートフォンサイト対応、WordPressなどが得意分野です。
-                低予算でWebサイトをお作りしますので、お気軽にお問い合わせください。</p>
+              <p class="profile-text">
+                はじめまして、mugicha designの清水と申します。<br>北海道を拠点にWEBデザインやWeb制作をしております。
+                2018年から6年間、事務職として勤務し、業務の効率化や細部への注意力を培いました。その傍ら、以前から興味を持っていたWebサイト制作を学び、2024年より本格的に活動を開始いたしました。
+                現在は、Web制作において、デザイン、コーディング、スマートフォン対応を得意としています。お客様のご要望に寄り添い、低予算でも魅力的で使いやすいWebサイトをご提供します。
+                <br>まずはお気軽にお問い合わせください。あなたのビジョンを形にするお手伝いをさせていただきます。
+              </p>
             </div><!--/profile-body-->
           </div>
         </div>
@@ -244,8 +260,9 @@
       <section class="contact section" id="contact">
         <div class="container">
           <h2 class="title">CONTACT</h2>
+          <p class="ja">お問い合わせ</p>
           <p class="lead">
-            お問い合わせは、メールにて承ります。<br class="sp-only">以下のフォームへご記入ください。
+            お問い合わせはメールにて承ります。<br>プライバシーポリシー同意の上、以下のフォームへご記入ください。
           </p>
 
 
@@ -256,38 +273,42 @@
             <!-- STATIC FORMSのアクセスキー -->
             <input type="hidden" name="accessKey" value="6b6d0a9b-6cfd-48b6-967c-bddddb07965c">
             <!--メールのタイトル-->
-            <input type="hidden" name="subject" value="【お問い合わせ】portfolioからのお問い合わせ mugicha design">
+            <input type="hidden" name="subject" value="portfolio_contact | mugicha design">
             <!--送信先のメールアドレスをvalueに設定する-->
             <input type="hidden" name="replyTo" value="works@mugicha-design.com">
             <!--redirectToのURLは公開後のURLへリンクする-->
-            <input type="hidden" name="redirectTo" value="">
+            <input type="hidden" name="redirectTo" value="https://mugicha-design.com/thanks.html">
           <!-- /static form -->
 
             <div>
               <div class="contact-heading">
-                <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+                <label class="contact-label" for="name">お名前<span class="contact-span">*必須</span></label>
               </div>
               <div>
-                <input class="form-text" type="text" name="name" placeholder="例）田中　太郎">
+                <input class="form-text" id="name" type="text" name="name" placeholder="例）田中　太郎" required>
               </div>
             </div>
 
             <div>
               <div class="contact-heading">
-                <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label><br>
+                <label class="contact-label" for="email">メールアドレス<span class="contact-span">*必須</span></label>
               </div>
               <div>
-                <input class="form-text" type="email" name="email" placeholder="例）abcde@test.com">
+                <input class="form-text" id="email" type="email" name="email" placeholder="例）abcde@test.com" required>
               </div>
             </div>
 
             <div>
               <div class="contact-heading">
-                <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label><br>
+                <label class="contact-label" for="note">お問い合わせ内容<span class="contact-span">*必須</span></label>
               </div>
               <div>
-                <textarea class="form-textarea" name="message" placeholder="お問い合わせ内容をご入力ください"></textarea></p>
+                <textarea class="form-textarea" id="note" name="message" placeholder="お問い合わせ内容をご入力ください" required></textarea></p>
               </div>
+            </div>
+
+            <div class="privacypolicy">
+              <input type="checkbox" required> プライバシーポリシーに同意する<span class="contact-span">*必須</span>
             </div>
 
             <div class="btn">
@@ -300,19 +321,26 @@
       </section>
       <!-- /contact -->
 
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
-      </div>
+      <a class="page-top" id="page-top"></a>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-      <div class="copyright">&copy;mugicha design</div>
+      <nav class="gnav">
+        <ul class="gnav-list">
+          <li class="gnav-item"><a href="#works">WORKS</a></li>
+          <li class="gnav-item"><a href="#skill">SKILL</a></li>
+          <li class="gnav-item"><a href="#about">ABOUT</a></li>
+          <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          <li class="gnav-item"><a href="privacypolicy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2025 mugicha design</p>
     </footer>
     <!-- /footer -->
 
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
